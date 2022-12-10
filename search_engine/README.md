@@ -4,7 +4,7 @@
 <ol>
       <li><b>Search Engine</b></li>
       <ol>
-        <li>Install Java to your system.(RecommendedtoinstallinCdrive)</li>
+        <li>Install Java to your system.(Recommended to install in C drive)</li>
         <li>DownloadHadoop2.0+(\&lt;Hadoop3.0).</li>
         <ol>
           <li>Extract Hadoop at C:\hadoop\</li>
