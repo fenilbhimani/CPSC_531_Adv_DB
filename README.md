@@ -62,15 +62,15 @@
             hadoop fs mkdir /EnWikiSubset (creating an EnWikiSubset directory in HDFS)
           </li>
           <li>
-            hadoop fs -put /path to the directory where you cloned the folder/EnWikiSubset/\*
-            /EnWikiSubsetNote – "/\*" is used to transfer all files from that
+            hadoop fs -put /path to the directory where you cloned the folder/EnWikiSubset/*
+            /EnWikiSubsetNote – "/*" is used to transfer all files from that
             folder to the directory in HDFS.
           </li>
           <li>
             hadoop fs -ls/EnWikiSubset (check whether all the files have been successfully uploaded in the HDFS EnWikiSubset directory).
           </li>
           <li>
-            hadoop jar/path to the directory where you cloned the folder/search\_engine.jar Indexer /EnWikiSubset (Running the Indexer Engine)
+            hadoop jar/path to the directory where you cloned the folder/search_engine.jar Indexer /EnWikiSubset (Running the Indexer Engine)
           </li>
           <li>
             hadoop jar/path to the directory where you cloned the folder
@@ -78,7 +78,7 @@
             'N'is the number which user will input like 1,2,3,4,…,to get that many relevances for
             the query text)
           </li>
-          <li>stop-all(To stop all HDFS services running currently)</li>
+          <li>stop-all (To stop all HDFS services running currently)</li>
         </ol>
       </ol>
       <h3>Note:- Dataset is not fully uploaded as the size of dataset is in GB. Complete dataset can be found <a href="https://drive.google.com/drive/folders/1-Tr3EJpSogf4ysgL17csd-U_gsB0-zwJ?usp=sharing">here</a></h3>
@@ -110,10 +110,10 @@
           Copy winutils.exe and hadoop.dll from winutils-master/hadoop-2.x.x/bintoC:/winutils/bin.
         </li>
         <li>
-          Add a new system variable HADOOP\_HOME and point it to the C:/winutilsdirectory.
+          Add a new system variable HADOOP\_HOME and point it to the C:/winutils directory.
         </li>
         <li>
-          Also, edit the system PATH variable and add %HADOOP\_HOME%/bintothelist.
+          Also, edit the system PATH variable and add %HADOOP\_HOME%/bin to the list.
         </li>
         <li>
           You need to change the path for the input and output file that has
