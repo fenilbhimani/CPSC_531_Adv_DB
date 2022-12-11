@@ -5,7 +5,7 @@
       <li><b>Search Engine</b></li>
       <ol>
         <li>Install Java to your system.(Recommended to install in C drive)</li>
-        <li>DownloadHadoop2.0+(\&lt;Hadoop3.0).</li>
+        <li>DownloadHadoop2.0+(&lt;Hadoop3.0).</li>
         <ol>
           <li>Extract Hadoop at C:\hadoop\</li>
           <li>Download the Windows binaries for Hadoop Versions.(https://github.com/steveloughran/winutils)</li>
