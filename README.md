@@ -85,7 +85,7 @@
       <br>
       <li><b>Map-Reduce Examples</b></li>
       <ol>
-        <li>Download Hadoop2.0+(\&lt;Hadoop3.0).</li>
+        <li>Download Hadoop2.0+(&lt;Hadoop3.0).</li>
         <li>Unzip the tarfile and open a new project in IntelliJ.</li>
         <li>
           Navigate to the project dependencies pane(For IntelliJ,it is under ProjectStructure).
